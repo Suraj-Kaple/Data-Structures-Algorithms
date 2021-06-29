@@ -1,4 +1,4 @@
-https://www.interviewbit.com/problems/pascal-triangle/
+//https://www.interviewbit.com/problems/pascal-triangle/
 
 vector<vector<int> > Solution::solve(int A) {
     vector<vector<int> > v(A);
