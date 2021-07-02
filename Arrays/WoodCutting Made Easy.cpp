@@ -1,3 +1,7 @@
+// https://www.interviewbit.com/problems/woodcutting-made-easy/
+
+// this problem also has a binary search solution of O(NlogN)
+
 int Solution::solve(vector<int> &A, int B) {
     int n=A.size(), max_height = *max_element(A.begin(),A.end());
     vector<int> wood_at_level(max_height+1, 0);
