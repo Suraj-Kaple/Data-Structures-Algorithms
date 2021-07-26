@@ -33,5 +33,5 @@ int Solution::solve(vector<int> &V, vector<int> &W, int C) {
 }
 
 // * assign max of (value when item i is chosen, value when item i is not chosen)
-// value when item i is chosen = value of item 1 +(value when items are till i-1 and capacity is currCapacity - wt. of item i)
+// value when item i is chosen = value of item i +(value when items are till i-1 and capacity is currCapacity - wt. of item i)
 // value when item i is not chosen = value when items are till i-1 and capacity is currCapacity
